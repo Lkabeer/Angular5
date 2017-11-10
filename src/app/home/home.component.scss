@@ -1,0 +1,43 @@
+@import "../../styles.scss";
+
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.col {
+    padding: .4em 1.3em;
+}
+
+.color-dark {
+    background: $color-dark;
+}
+
+.color-light {
+    background: $color-light;
+}
+
+input {
+    &.txt {
+        border: 0;
+        padding: 1em;
+        width: 80%;
+        margin-bottom: 2em;
+    }
+    &.btn {
+        border: 0;
+        display: block;
+        padding: 1em 3em;
+        background: $color-background;
+        color: $color-dark;
+        margin-bottom: 1em;
+        cursor: pointer;
+    }
+}
+
+.life-container {
+    background: $color-light;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}

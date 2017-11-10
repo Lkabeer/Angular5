@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$font-main: 'Raleway', sans-serif;
+$color-main: #2E9CE6;
+$color-dark: #2885C4;
+$color-light: #57B3F1;
+$color-sec: #fff;
+$color-background: #A5F883;
+
+body {
+    background-color: $color-main;
+    font-family: $font-main;
+    padding: 3em;
+    color: $color-sec;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+
+    li {
+        display: inline;
+        margin-right: 30px;
+
+        a {
+            font-size: 1.5em;
+        }
+    }
+}
+
+a {
+    color: $color-sec;
+    text-decoration: none;
+}
